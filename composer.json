@@ -1,0 +1,26 @@
+{
+    "name": "antonioleutsch/chuck-norris-jokes",
+    "description": "Create random Chuck Norris jokes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antonio Leutsch",
+            "email": "post@antonio-leutsch.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "AntonioLeutsch\\ChuckNorrisJokes\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AntonioLeutsch\\ChuckNorrisJokes\\Tests\\" : "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    }
+}
